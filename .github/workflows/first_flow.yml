@@ -1,0 +1,20 @@
+name: 'lint braingames'
+
+on:
+  push:
+  
+jobs:
+  Linting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      name: 'setup node'
+      with:
+        node-version: '16.x'
+
+    - name: 'install'
+      run: npm ci
+
+    - name: 'lint'
+      run: npx eslint --fix .
