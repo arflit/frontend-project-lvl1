@@ -11,3 +11,5 @@
 [Аскинема игры brain-calc](https://asciinema.org/a/AuROiktxuH64ucsh1b9tJHCM7)
 
 [Аскинема игры brain-gcd](https://asciinema.org/a/I518bsLbzpEbrSVQQzVPCaL7d)
+
+[Аскинема игры brain-progression](https://asciinema.org/a/9UpWUnfzLz1YPZCrIRdRJJqKX)

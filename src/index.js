@@ -6,13 +6,13 @@ const game = (name, rules, getQuestion) => {
   for (let i = 0; i < 3; i += 1) {
     const { question, correctAnswer } = getQuestion();
     const answer = readlineSync.question(`Question: ${question}
-    Your answer: `);
+Your answer: `);
     const result = String(answer) === String(correctAnswer);
     if (result) {
       console.log('Correct!');
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
-          Let's try again, ${name}!`);
+Let's try again, ${name}!`);
       win = false;
       break;
     }
