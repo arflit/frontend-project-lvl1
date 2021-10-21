@@ -34,9 +34,17 @@ export const calcResult = (num1, action, num2) => {
 export const calcGcd = (x, y) => {
   let gcd = 0;
   for (let i = 1; i <= x; i += 1) {
-    if ((x % i === 0) && (y % i === 0)) {
+    if (x % i === 0 && y % i === 0) {
       gcd = i;
     }
   }
   return gcd;
+};
+
+export const isPrime = (x) => {
+  if (x < 4) return true;
+  for (let i = 2; i <= Math.sqrt(x); i += 1) {
+    if (x % i === 0) return false;
+  }
+  return true;
 };

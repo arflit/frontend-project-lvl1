@@ -13,3 +13,5 @@
 [Аскинема игры brain-gcd](https://asciinema.org/a/I518bsLbzpEbrSVQQzVPCaL7d)
 
 [Аскинема игры brain-progression](https://asciinema.org/a/9UpWUnfzLz1YPZCrIRdRJJqKX)
+
+[Аскинема игры brain-prime](https://asciinema.org/a/7lousWi5ymXvM4T09UfcUDwg3)
