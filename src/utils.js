@@ -30,3 +30,13 @@ export const calcResult = (num1, action, num2) => {
   }
   return NaN;
 };
+
+export const calcGcd = (x, y) => {
+  let gcd = 0;
+  for (let i = 1; i <= x; i += 1) {
+    if ((x % i === 0) && (y % i === 0)) {
+      gcd = i;
+    }
+  }
+  return gcd;
+};
