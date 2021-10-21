@@ -6,4 +6,7 @@
 
 [![lint braingames](https://github.com/arflit/frontend-project-lvl1/actions/workflows/first_flow.yml/badge.svg)](https://github.com/arflit/frontend-project-lvl1/actions/workflows/first_flow.yml)
 
-[Аскинема](https://asciinema.org/a/ryonLrTAnFMIBfL8M6jXnBGWH)
+[Аскинема игры brain-even](https://asciinema.org/a/ryonLrTAnFMIBfL8M6jXnBGWH)
+
+[Аскинема игры brain-calc](https://asciinema.org/a/AuROiktxuH64ucsh1b9tJHCM7)
+
