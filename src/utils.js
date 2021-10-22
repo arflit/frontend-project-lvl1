@@ -1,5 +1,7 @@
 export const getRandom = (max = 100) => Math.floor(Math.random() * max) + 1;
+
 export const isEven = (number) => number % 2 === 0;
+
 export const getRandomCalcAction = () => {
   const random = Math.random();
   if (random < 0.33) {
