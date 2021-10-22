@@ -15,3 +15,6 @@ lint:
 
 lintfix: 
 	npx eslint --fix .
+
+progression: 
+	node bin/progression.js
